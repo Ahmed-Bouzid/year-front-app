@@ -1,4 +1,4 @@
-fetch("https://year-back-app.vercel.app/years")
+fetch("https://year-back-app.vercel.app/year")
   .then((response) => response.json())
   .then((data) => {
     console.log(data);

@@ -3,5 +3,5 @@ fetch("https://year-back-app.vercel.app/year")
   .then((data) => {
     console.log(data);
 
-    document.querySelector("#year").textContent = data.Year;
+    document.querySelector("#year").textContent = data.year;
   });
